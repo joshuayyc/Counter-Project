@@ -1,10 +1,31 @@
 /* Add basic headers, div and body styling */
+h2 {
+    font-size: 50px;
+    font-family: 'Schoolbell', cursive;
+    text-align:center;
+    color: coral;
+}
 
+h3 {
+    font-size: 100px;
+    font-family: 'Schoolbell', cursive;
+    text-align:center;
+}
 
-h1 {font-size: 20px; font-style:normal;; text-align:center;}
+.btncenter {
+  text-align: center;
+}
 
-h2 {font-size: 15px; font-style:normal;; text-align:left;}
+.button {
+    font-family: 'Schoolbell', cursive;
+    padding: 20px;
+    color:coral;
+    background-color: white;
+    margin:  2.5px;
+    border-radius: 10px;
+}
 
-div {padding: 10px; margin: 10px}
-
-body {text-align: left; word-wrap: break-word;}
+.button:hover {
+    background-color: coral;
+    color:white;
+}
